@@ -4,7 +4,7 @@ const reverse = require('./src');
 
 it('Should return 261 when 162 given', () => {
   const reversed = reverse(162);
-
+    
   assert.equal(reversed, 261);
 });
 it('Should return 291 when -192 given', () => {
